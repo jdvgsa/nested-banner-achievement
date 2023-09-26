@@ -1,0 +1,29 @@
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+header > * { 
+
+  flex: auto;
+}
+
+input {
+  display: none;
+}
+
+nav ul {
+  display: none;  
+  /* justify-content: space-evenly; */
+}
+
+@media screen and (width > 40rem) {
+  label {
+    display: none;
+  }
+
+  nav ul {
+    display: flex;
+    justify-content: space-evenly;
+  }
+}
